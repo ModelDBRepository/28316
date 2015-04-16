@@ -33,3 +33,7 @@ after the mod files have been compiled (nrnivmodl compiles in unix, mknrndll in 
 Select a figure by clicking on a figure name.
 
 Fernanda.Saraga@UToronto.ca
+
+20150416 Note from the ModelDB administrator: A bug noted my Mohamed
+Sherif and fix provided by Ted Carnevale updates the IA.mod file so
+that the a,b states change.
