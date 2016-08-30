@@ -71,7 +71,7 @@ ASSIGNED {
 }
  
 BREAKPOINT {
-        SOLVE deriv METHOD derivimplicit
+        SOLVE deriv METHOD cnexp
         ik = gkAbar*a*b*(v - ek)
 }
  
@@ -83,6 +83,7 @@ INITIAL {
 
 DERIVATIVE deriv {  :Computes state variables m, h, and n rates(v)      
 		: at the current v and dt.
+        rates(v) : missing in orig Saraga et al. 2003 model 28316 
         a' = (ainf - a)/(tau_a)
         b' = (binf - b)/(tau_b)
 }

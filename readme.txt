@@ -37,3 +37,18 @@ Fernanda.Saraga@UToronto.ca
 20150416 Note from the ModelDB administrator: A bug noted by Mohamed
 Sherif and fix provided by Ted Carnevale updates the IA.mod file so
 that the a,b states change.
+
+20160830 Note from the ModelDB administrator: A bug noted by Andras
+Ecker and communicated by Marianne Bezaire was that IAprox.mod
+neglected to call the rates function.  The previous fix (20150416)
+required slight changes (see below) in the IClamp current (adjustable
+in the Point Process Manager window which becomes available when you
+run the simulation with mosinit.hoc) for some of the generated figures
+to be similar to those in the paper: 1) for 20150416 version in the 8B
+Long case the current needed to be increased from 0.2 to 0.27 however
+with this subsequent version (20160830) this is no longer
+necessary. For other cases 2) the 8 B Short current needs to be
+increased from 13 to 14 and 3) the 9A Case 2 current needs to be
+changed from -.05 to -0.04 for the generated graphs to be similar to
+the paper figures in both this updated version and in the 20150416
+version.
