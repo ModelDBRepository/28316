@@ -34,6 +34,5 @@ Fernanda.Saraga@UToronto.ca
   2) For other cases, the 8B Short current needs to be increased from 13 to 14.
   3) The 9A Case 2 current needs to be changed from -0.05 to -0.04 for the generated graphs to be similar to the paper figures in both this updated version and in the 20150416 version.
 
----
-
-2025-05-27 – Standardized to Markdown
+- **20250527**
+  Standardized to Markdown
